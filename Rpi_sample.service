@@ -1,0 +1,22 @@
+#Rpi_sample.service
+#copy to "/lib/systemd/system"
+#start with "sudo systemctl start Rpi_sample.service"
+#check status with "sudo systemctl status Rpi_sample.service"
+#stop with "sudo systemctl stop Rpi_sample.service"
+#auto start at boot "sudo systemctl enable Rpi_sample.service"
+
+[Unit]
+Description=Raspberry Example Service
+After=network-online.target
+
+[Service]
+ExecStart=/bin/bash /home/gabo13/scripts/sample.sh
+WorkingDirectory=/home/gabo13/scripts/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=gabo13
+
+[Install]
+WantedBy=multi-user.target
+
