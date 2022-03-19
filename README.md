@@ -1,6 +1,13 @@
 # SmartThings
+## Table of contents
+* [SmartThings] (#smartthings)
+    * [Table of contents] (#table-of-contents)
+    * [BASH SCRIPTING] (#bash-scripting)
+        * [Command-line parameters:] (#command-line-parameters)
+
+
 ## BASH SCRIPTING
-### Command-line parameters:
+### Command-line parameters
 ```
 $# - number of command-line arguments
 $? - last command exit value
@@ -20,12 +27,12 @@ $1 = -yes
 $2 = -no
 $3 = /home/username
 ```
-### Shebang:
+### Shebang
 ```
 #! 
 #!/bin/bash - the path to the interpreter
 ```
-### Comments:
+### Comments
 Single line commnet:
 ```
 # This is a single line comment
