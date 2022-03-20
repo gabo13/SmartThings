@@ -1,10 +1,14 @@
 # SmartThings
 ## Table of contents
-* [SmartThings] (#smartthings)
-    * [Table of contents] (#table-of-contents)
-    * [BASH SCRIPTING] (#bash-scripting)
-        * [Command-line parameters:] (#command-line-parameters)
-
+* [SmartThings](#smartthings)
+   * [Table of contents](#table-of-contents)
+   * [BASH SCRIPTING](#bash-scripting)
+      * [Command-line parameters](#command-line-parameters)
+      * [Shebang](#shebang)
+      * [Comment](#comments)
+      * [File System](#file-system)
+      * [Variables](#variables)
+   * [TERMINAL SHORTCUTS](#terminal-shortcuts)
 
 ## BASH SCRIPTING
 ### Command-line parameters
@@ -98,3 +102,18 @@ Example:
 echo $pi
 echo $greetings pi value is $pi
 ```
+## TERMINAL SHORTCUTS
+* TAB - automatic complete command
+* Ctrl + C - break out of a command or process
+* Ctrl + Z - send a runing program in te background
+* Ctrl + D - closing ssh connection or closing the terminal application (equivalent to exit command)
+* Ctrl + L - clear terminal screen
+* Ctrl + A - move cursor to the begining of the line (Home)
+* Ctrl + E - move corsor to the end of the line (End)
+* Ctrl + U - erase from the cursor to begining of the line
+* Ctrl + K - erase from the cursor to end of the line
+* Ctrl + W - erase word
+* Ctrl + Y - paste erased text
+* Ctrl + P - view previous commands, can press it repeatedly
+* Ctrl + N - view next commands, can press it repeatedly
+* Ctrl + R - perform a search in your command history, can press it repeatedly
