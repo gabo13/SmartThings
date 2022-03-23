@@ -102,6 +102,24 @@ Example:
 echo $pi
 echo $greetings pi value is $pi
 ```
+### Arrays
+#### Indexed arrays
+```
+declare -a array # indexed array
+array=(one two three)
+array[0]=one
+array[1]=two
+array[2]=three
+```
+#### Associated arrays
+```
+Declare an associative array:
+  declare -A aa
+initialize elements:
+aa[one]=hello
+aa[two]=world
+aa["last character"]="!"
+```
 ## TERMINAL SHORTCUTS
 * TAB - automatic complete command
 * Ctrl + C - break out of a command or process
