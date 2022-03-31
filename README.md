@@ -110,6 +110,7 @@ array=(one two three)
 array[0]=one
 array[1]=two
 array[2]=three
+echo "${array[@]}"
 ```
 #### Associated arrays
 ```
