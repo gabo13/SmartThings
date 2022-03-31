@@ -1,4 +1,4 @@
-# SmartThings
+# BASH
 ## Table of contents
 * [SmartThings](#smartthings)
    * [Table of contents](#table-of-contents)
