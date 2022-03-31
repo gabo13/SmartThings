@@ -1,6 +1,6 @@
 # BASH
 ## Table of contents
-* [SmartThings](#smartthings)
+* [BASH](#bash)
    * [Table of contents](#table-of-contents)
    * [BASH SCRIPTING](#bash-scripting)
       * [Command-line parameters](#command-line-parameters)
