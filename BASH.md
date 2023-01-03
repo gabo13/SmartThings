@@ -2,15 +2,16 @@
 ## Table of contents
 * [BASH](#bash)
    * [Table of contents](#table-of-contents)
-   * [BASH SCRIPTING](#bash-scripting)
+   * [BASH](#bash)
       * [Command-line parameters](#command-line-parameters)
       * [Shebang](#shebang)
       * [Comment](#comments)
       * [File System](#file-system)
       * [Variables](#variables)
+      * [Arrays](#arrays)
    * [TERMINAL SHORTCUTS](#terminal-shortcuts)
 
-## BASH SCRIPTING
+## BASH
 ### Command-line parameters
 ```
 $# - number of command-line arguments
@@ -121,8 +122,9 @@ aa[one]=hello
 aa[two]=world
 aa["last character"]="!"
 ```
+## Program control flow
 ### test values
-test [expressions]
+test [expressions]  
 '[' = alias of test, but last argument must by ']'
 #### File Operators
 -a FILE   True if file exist.  
@@ -185,6 +187,46 @@ else
   CODE-TO-EXECUTE
 fi
 ```
+### For loop examples
+[External link:](https://www.cyberciti.biz/faq/bash-for-loop/)
+```
+for VAR in 1 2 3 4 5 .. N
+do
+  CODE-TO-EXECUTE
+done
+```
+```
+for VAR in file1 file2 file3
+do
+  CODE-TO-EXECUTE
+done
+```
+```
+for OUTPUT in $(linux commnad)
+do
+  CODE-TO-EXECUTE
+done
+```
+```
+for i in {1..5}
+do
+  CODE-TO-EXECUTE
+done
+```
+```
+for i in {0..10..2}
+do
+  CODE-TO-EXECUTE
+done
+```
+```
+for (( c=1; c<=5; c++ ))
+do
+  CODE-TO-EXECUTE
+done
+```
+### while loop examples
+[External link](https://www.cyberciti.biz/faq/bash-while-loop/)
 ## TERMINAL SHORTCUTS
 * TAB - automatic complete command
 * Ctrl + C - break out of a command or process
