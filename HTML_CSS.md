@@ -2,9 +2,9 @@
 ### Absolute units:
 | Unit | Name | Equivalent to |
 | --- | --- | --- |
-| cm | centimeter | 37.8 px = 25.2/64 in |
-| mm | millimeter | 1/10 cm |
-| Q | quarter millimeter | 1/40 cm |
+| cm | centimeters | 37.8 px = 25.2/64 in |
+| mm | millimeters | 1/10 cm |
+| Q | quarter millimeters | 1/40 cm |
 | in | inches | 2.54 cm = 96 px |
 | pc | picas | 1/6 in |
 | pt | points | 1/72 in |
