@@ -35,7 +35,7 @@
 * grid-template-columns, grid-template-rows
 * grid-template-areas
 * grid-template
-* column-grap,row-gap
+* column-gap,row-gap
 * gap
 * justify-items
 * align-items
