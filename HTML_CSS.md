@@ -71,3 +71,20 @@
   * auto-fit
 * Masonry
 * Subgrid
+## CSS Flex
+### Properties for the Parent (Flex Container)
+* display: flex
+* flex-direction
+* flex-wrap
+* flex-flow
+* justify-content
+* align-items
+* align-content
+* gap, row-gap, column-gap
+### Properties for the Children (Flex Items)
+* order
+* flex-grow
+* flex-shrink
+* flex-basis
+* flex
+* align-self
