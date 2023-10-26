@@ -92,7 +92,7 @@
 ### Vertical input range and red color:
 ```
 Css:
-input [type="range"] [orient="vertical"] {
+input[type="range"][orient="vertical"] {
 appearance: slider-vertical;
 accent-color: red;
 }
