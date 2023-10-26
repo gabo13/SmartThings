@@ -88,3 +88,8 @@
 * flex-basis
 * flex
 * align-self
+## Etc
+### Vertical input range and red color:
+```
+<input type="range" orient="vertical" style="appearance: slider-vertical; accent-color: red;">
+```
