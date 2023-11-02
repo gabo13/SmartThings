@@ -1,3 +1,4 @@
+```
 :  # label
 =  # line_number
 a  # append_text_to_stdout_after_flush
@@ -22,3 +23,4 @@ t  # branch_on_substitute
 w  # append_pattern_to_file_now         
 x  # swap_pattern_and_hold             
 y  # transform_chars
+```
