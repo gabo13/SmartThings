@@ -6,6 +6,7 @@ Linux, python ect. notes
 * [VIM](/VIM.md)
 * [ECT](/ECT.md)
 * [HTML](/HTML_CSS.md)
+* [SED](/SED.md)
 ## Scripts
 * [Update pip modules (Bash)](/update_pip_modules.sh)
 * [Update pip modules (PowerShell)](/update_pip_modules.ps1)
